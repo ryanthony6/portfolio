@@ -1,6 +1,6 @@
 import React, {} from "react";
 import { TypeAnimation } from "react-type-animation";
-
+import selfImage from "../Assets/img/bagus.png";
 
 const Hero = () => {
  
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="mt-10 lg:mt-9 lg:right-0">
               <img
-                src="/img/bagus.png"
+                src={selfImage}
                 alt="Icon"
                 className="max-w-full mx-auto"
               />

@@ -1,4 +1,8 @@
 import React from "react";
+import cert1 from "../Assets/img/portofolio/1.jpg";
+import cert2 from "../Assets/img/portofolio/2.jpg";
+import cert3 from "../Assets/img/portofolio/3.jpg";
+import cert4 from "../Assets/img/portofolio/4.jpg";
 
 const Certificate = () => {
   return (
@@ -20,7 +24,7 @@ const Certificate = () => {
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           <div data-aos="fade-up" data-aos-duration="1500" className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <img src="/img/portofolio/1.jpg" alt="projek" />
+              <img src={cert1} alt="projek" />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Certificate 1
@@ -33,7 +37,7 @@ const Certificate = () => {
 
           <div data-aos="fade-up" data-aos-duration="1500" className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <img src="/img/portofolio/2.jpg" alt="projek" width="w-full" />
+              <img src={cert2} alt="projek" width="w-full" />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Certificate 2
@@ -46,7 +50,7 @@ const Certificate = () => {
 
           <div data-aos="fade-up" data-aos-duration="1500" className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <img src="/img/portofolio/3.jpg" alt="projek" width="w-full" />
+              <img src={cert3} alt="projek" width="w-full" />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Certificate 3
@@ -59,7 +63,7 @@ const Certificate = () => {
 
           <div data-aos="fade-up" data-aos-duration="1500" className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <img src="/img/portofolio/4.jpg" alt="projek" width="w-full" />
+              <img src={cert4} alt="projek" width="w-full" />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Certificate 4
