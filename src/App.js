@@ -6,18 +6,19 @@ import Certificate from "./components/Certificate";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import PreLoader from "./components/Loader/PreLoader";
 
 function App() {
   return (
     <div>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <Certificate/>
-     <Projects/>
-     <Contact/>
-     <Footer/>
-    
+      {/* <PreLoader /> */}
+      <Navbar />
+      <Hero />
+      <About />
+      <Certificate />
+      <Projects />
+      <Contact />
+      <Footer /> */
     </div>
   );
 }
